@@ -1,0 +1,127 @@
+metric,feature,value,description
+row_count,dataset,891,Количество строк
+column_count,dataset,12,Количество столбцов
+duplicate_rows,dataset,0,Количество полных дубликатов строк
+duplicate_passenger_ids,PassengerId,0,Количество повторных PassengerId
+dtype,PassengerId,int64,Тип данных столбца
+missing_count,PassengerId,0,Количество пропусков
+missing_percent,PassengerId,0.0,Доля пропусков в процентах
+unique_count,PassengerId,891,Количество уникальных непустых значений
+dtype,Survived,int64,Тип данных столбца
+missing_count,Survived,0,Количество пропусков
+missing_percent,Survived,0.0,Доля пропусков в процентах
+unique_count,Survived,2,Количество уникальных непустых значений
+dtype,Pclass,int64,Тип данных столбца
+missing_count,Pclass,0,Количество пропусков
+missing_percent,Pclass,0.0,Доля пропусков в процентах
+unique_count,Pclass,3,Количество уникальных непустых значений
+dtype,Name,str,Тип данных столбца
+missing_count,Name,0,Количество пропусков
+missing_percent,Name,0.0,Доля пропусков в процентах
+unique_count,Name,891,Количество уникальных непустых значений
+dtype,Sex,str,Тип данных столбца
+missing_count,Sex,0,Количество пропусков
+missing_percent,Sex,0.0,Доля пропусков в процентах
+unique_count,Sex,2,Количество уникальных непустых значений
+dtype,Age,float64,Тип данных столбца
+missing_count,Age,177,Количество пропусков
+missing_percent,Age,19.8653,Доля пропусков в процентах
+unique_count,Age,88,Количество уникальных непустых значений
+dtype,SibSp,int64,Тип данных столбца
+missing_count,SibSp,0,Количество пропусков
+missing_percent,SibSp,0.0,Доля пропусков в процентах
+unique_count,SibSp,7,Количество уникальных непустых значений
+dtype,Parch,int64,Тип данных столбца
+missing_count,Parch,0,Количество пропусков
+missing_percent,Parch,0.0,Доля пропусков в процентах
+unique_count,Parch,7,Количество уникальных непустых значений
+dtype,Ticket,str,Тип данных столбца
+missing_count,Ticket,0,Количество пропусков
+missing_percent,Ticket,0.0,Доля пропусков в процентах
+unique_count,Ticket,681,Количество уникальных непустых значений
+dtype,Fare,float64,Тип данных столбца
+missing_count,Fare,0,Количество пропусков
+missing_percent,Fare,0.0,Доля пропусков в процентах
+unique_count,Fare,248,Количество уникальных непустых значений
+dtype,Cabin,str,Тип данных столбца
+missing_count,Cabin,687,Количество пропусков
+missing_percent,Cabin,77.1044,Доля пропусков в процентах
+unique_count,Cabin,147,Количество уникальных непустых значений
+dtype,Embarked,str,Тип данных столбца
+missing_count,Embarked,2,Количество пропусков
+missing_percent,Embarked,0.2245,Доля пропусков в процентах
+unique_count,Embarked,3,Количество уникальных непустых значений
+class_count,0,549,Количество объектов целевого класса
+class_percent,0,61.6162,Доля объектов целевого класса в процентах
+class_count,1,342,Количество объектов целевого класса
+class_percent,1,38.3838,Доля объектов целевого класса в процентах
+numeric_count,PassengerId,891.0,Числовая статистика: count
+numeric_mean,PassengerId,446.0,Числовая статистика: mean
+numeric_std,PassengerId,257.353842,Числовая статистика: std
+numeric_min,PassengerId,1.0,Числовая статистика: min
+numeric_25%,PassengerId,223.5,Числовая статистика: 25%
+numeric_50%,PassengerId,446.0,Числовая статистика: 50%
+numeric_75%,PassengerId,668.5,Числовая статистика: 75%
+numeric_max,PassengerId,891.0,Числовая статистика: max
+iqr_outlier_count,PassengerId,0,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,Survived,891.0,Числовая статистика: count
+numeric_mean,Survived,0.383838,Числовая статистика: mean
+numeric_std,Survived,0.486592,Числовая статистика: std
+numeric_min,Survived,0.0,Числовая статистика: min
+numeric_25%,Survived,0.0,Числовая статистика: 25%
+numeric_50%,Survived,0.0,Числовая статистика: 50%
+numeric_75%,Survived,1.0,Числовая статистика: 75%
+numeric_max,Survived,1.0,Числовая статистика: max
+iqr_outlier_count,Survived,0,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,Pclass,891.0,Числовая статистика: count
+numeric_mean,Pclass,2.308642,Числовая статистика: mean
+numeric_std,Pclass,0.836071,Числовая статистика: std
+numeric_min,Pclass,1.0,Числовая статистика: min
+numeric_25%,Pclass,2.0,Числовая статистика: 25%
+numeric_50%,Pclass,3.0,Числовая статистика: 50%
+numeric_75%,Pclass,3.0,Числовая статистика: 75%
+numeric_max,Pclass,3.0,Числовая статистика: max
+iqr_outlier_count,Pclass,0,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,Age,714.0,Числовая статистика: count
+numeric_mean,Age,29.699118,Числовая статистика: mean
+numeric_std,Age,14.526497,Числовая статистика: std
+numeric_min,Age,0.42,Числовая статистика: min
+numeric_25%,Age,20.125,Числовая статистика: 25%
+numeric_50%,Age,28.0,Числовая статистика: 50%
+numeric_75%,Age,38.0,Числовая статистика: 75%
+numeric_max,Age,80.0,Числовая статистика: max
+iqr_outlier_count,Age,11,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,SibSp,891.0,Числовая статистика: count
+numeric_mean,SibSp,0.523008,Числовая статистика: mean
+numeric_std,SibSp,1.102743,Числовая статистика: std
+numeric_min,SibSp,0.0,Числовая статистика: min
+numeric_25%,SibSp,0.0,Числовая статистика: 25%
+numeric_50%,SibSp,0.0,Числовая статистика: 50%
+numeric_75%,SibSp,1.0,Числовая статистика: 75%
+numeric_max,SibSp,8.0,Числовая статистика: max
+iqr_outlier_count,SibSp,46,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,Parch,891.0,Числовая статистика: count
+numeric_mean,Parch,0.381594,Числовая статистика: mean
+numeric_std,Parch,0.806057,Числовая статистика: std
+numeric_min,Parch,0.0,Числовая статистика: min
+numeric_25%,Parch,0.0,Числовая статистика: 25%
+numeric_50%,Parch,0.0,Числовая статистика: 50%
+numeric_75%,Parch,0.0,Числовая статистика: 75%
+numeric_max,Parch,6.0,Числовая статистика: max
+iqr_outlier_count,Parch,213,"Количество потенциальных выбросов по правилу 1,5 IQR"
+numeric_count,Fare,891.0,Числовая статистика: count
+numeric_mean,Fare,32.204208,Числовая статистика: mean
+numeric_std,Fare,49.693429,Числовая статистика: std
+numeric_min,Fare,0.0,Числовая статистика: min
+numeric_25%,Fare,7.9104,Числовая статистика: 25%
+numeric_50%,Fare,14.4542,Числовая статистика: 50%
+numeric_75%,Fare,31.0,Числовая статистика: 75%
+numeric_max,Fare,512.3292,Числовая статистика: max
+iqr_outlier_count,Fare,116,"Количество потенциальных выбросов по правилу 1,5 IQR"
+correlation_with_survived,PassengerId,-0.005007,Корреляция Пирсона с Survived
+correlation_with_survived,Survived,1.0,Корреляция Пирсона с Survived
+correlation_with_survived,Pclass,-0.338481,Корреляция Пирсона с Survived
+correlation_with_survived,Age,-0.077221,Корреляция Пирсона с Survived
+correlation_with_survived,SibSp,-0.035322,Корреляция Пирсона с Survived
+correlation_with_survived,Parch,0.081629,Корреляция Пирсона с Survived
+correlation_with_survived,Fare,0.257307,Корреляция Пирсона с Survived
