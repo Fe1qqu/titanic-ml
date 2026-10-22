@@ -172,6 +172,7 @@ def save_eda_statistics(df: pd.DataFrame) -> None:
         REPORTS_DIR / "eda_stats.csv",
         index=False,
         encoding="utf-8",
+        lineterminator="\n",
     )
 
     # Сохраняем прежний отдельный файл пропусков.
@@ -186,6 +187,7 @@ def save_eda_statistics(df: pd.DataFrame) -> None:
         REPORTS_DIR / "missing_values.csv",
         index=False,
         encoding="utf-8",
+        lineterminator="\n",
     )
 
 
