@@ -1,0 +1,33 @@
+﻿NEGATIVE TEST 1: Python syntax error
+Test file: precommit_probe.py
+Command: git commit -m "test: verify syntax error blocks commit"
+Observed result: Commit rejected by pre-commit.
+Failed hooks: ruff (exit code 1), ruff-format (exit code 2).
+Status: PASSED — invalid Python syntax blocked the commit.
+
+NEGATIVE TEST 2: Private key marker
+Test file: precommit_secret_probe.txt
+Command: git commit -m "test: verify private key detection"
+Observed result: Commit rejected by pre-commit.
+Failed hook: detect-private-key (exit code 1).
+Output: Private key found.
+Status: PASSED — the private-key marker blocked the commit.
+
+NEGATIVE TEST 3: Oversized binary file
+Test file: precommit_large_probe.bin
+File size: 1025 KiB
+Configured limit: 1024 KiB
+Command: git commit -m "test: verify oversized file detection"
+Observed result: Commit rejected by pre-commit.
+Failed hook: check-added-large-files (exit code 1).
+Status: PASSED — the oversized file blocked the commit.
+
+Cleanup: All three temporary test files were removed. No test commit was created.
+
+NEGATIVE TEST 4: Raw data tampering
+Action: Appended a temporary test row to data/raw/train.csv.
+Observed result: The integrity checker reported mismatches in sha256, size_bytes, and rows.
+Expected values: SHA-256 7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f; size 61194 bytes; 891 rows.
+Observed tampered values: SHA-256 f4d720f16bc7acb6caeb93c0f0011d17e9defe6dd90267c6ff876375c41a0a46; size 61210 bytes; 892 rows.
+Cleanup: Original CSV bytes were restored; a subsequent integrity check passed.
+Status: PASSED — the integrity checker detected the modified dataset.
