@@ -1,0 +1,46 @@
+{
+    "lab_number": 2,
+    "variant": "07",
+    "dataset_path": "data/raw/train.csv",
+    "target_column": "Survived",
+    "random_state": 42,
+    "test_size": 0.2,
+    "validation_size": 0.2,
+    "chunk_size": 64,
+    "numeric_features": [
+        "Age",
+        "Fare",
+        "SibSp",
+        "Parch"
+    ],
+    "categorical_features": [
+        "Pclass",
+        "Sex",
+        "Embarked"
+    ],
+    "model": {
+        "name": "SGDClassifier",
+        "loss": "log_loss",
+        "alpha_candidates": [
+            0.0001,
+            0.001,
+            0.01
+        ],
+        "penalty_candidates": [
+            "l2",
+            "l1"
+        ],
+        "max_iter": 2000,
+        "tol": 0.0001
+    },
+    "evaluation": {
+        "bootstrap_iterations": 1000,
+        "confidence_level": 0.95,
+        "precision_at_fraction": 0.2
+    },
+    "mlflow": {
+        "experiment_name": "Titanic_Lab2",
+        "tracking_uri": "sqlite:///mlflow.db"
+    },
+    "output_dir": "reports/LAB2"
+}

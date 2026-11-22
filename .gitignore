@@ -180,3 +180,12 @@ Thumbs.db
 
 # Generated data
 data/processed/
+# MLflow local tracking data
+mlflow.db
+mlflow.db-*
+mlruns/
+
+# Python environments
+.venv/
+__pycache__/
+*.py[cod]
