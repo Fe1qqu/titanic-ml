@@ -1,0 +1,35 @@
+[
+    {
+        "time": 1.4304249000001619,
+        "epochs": 10,
+        "train_rows": 569,
+        "memory_before": 178900992,
+        "memory_after": 186204160,
+        "peak_memory": 186798080,
+        "peak_memory_delta": 7897088,
+        "factor": 1,
+        "dataset_rows": 891
+    },
+    {
+        "time": 8.859667000000172,
+        "epochs": 10,
+        "train_rows": 2851,
+        "memory_before": 179376128,
+        "memory_after": 187617280,
+        "peak_memory": 192147456,
+        "peak_memory_delta": 12771328,
+        "factor": 5,
+        "dataset_rows": 4455
+    },
+    {
+        "time": 17.630169099999875,
+        "epochs": 10,
+        "train_rows": 5702,
+        "memory_before": 178999296,
+        "memory_after": 187797504,
+        "peak_memory": 193314816,
+        "peak_memory_delta": 14315520,
+        "factor": 10,
+        "dataset_rows": 8910
+    }
+]
