@@ -1,0 +1,12 @@
+{
+    "experiment_name": "Titanic_Lab3",
+    "tracking_uri": "sqlite:///mlflow.db",
+    "full_run_id": "4a13e47f27344143b3e0750b8034aacd",
+    "streaming_run_id": "5af5a42e29e44fd8ae9b28ab603c455e",
+    "checkpoint": "dl_model.pt",
+    "checkpoint_sha256": "76f6d20e36ced4e6ca7ffe11f609b1c8cac498a0b5434b5caa9c4f0b9f0bda94",
+    "checkpoint_verification": {
+        "full_max_probability_difference": 0.0,
+        "streaming_max_probability_difference": 0.0
+    }
+}
