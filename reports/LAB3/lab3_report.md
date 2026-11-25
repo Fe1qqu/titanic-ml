@@ -6,11 +6,13 @@
 - **Тема:** реализация и сравнение полного и потокового режимов обучения нейронной сети на наборе данных Titanic.
 - **Дата выполнения:** 2026-11-25.
 - **Автор:** Дорофеев Александр Сергеевич.
+- **Коммит с основными результатами реализации:** [`96176ca`](https://github.com/Fe1qqu/titanic-ml/commit/96176cadc1a191e10f47ecd6b8ab6e742c019aa8).
 - **Файл данных:** `data/raw/train.csv`.
 - **Источник данных:** [dsindy/kaggle-titanic, data/train.csv](https://github.com/dsindy/kaggle-titanic/blob/master/data/train.csv).
 - **URL загрузки:** `https://raw.githubusercontent.com/dsindy/kaggle-titanic/master/data/train.csv`.
 - **SHA-256 файла данных:** `7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f`.
 - **Связанный первоисточник:** [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic/data).
+- **Лицензия:** отдельная лицензия в репозитории загрузки не указана; на странице соревнования Kaggle условия использования обозначены как `Subject to Competition Rules`.
 - **Основные библиотеки:** PyTorch, MLflow, Pydantic, NumPy, pandas, scikit-learn.
 - **Вычислительное устройство:** NVIDIA GeForce GTX 1060 3GB, CUDA 12.6.
 
